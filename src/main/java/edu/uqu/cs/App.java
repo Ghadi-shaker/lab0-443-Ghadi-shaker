@@ -54,6 +54,7 @@ public class App{lab0
         if(i%6==0){
          System.out.print("poodle");   
         }
+    
         }
         else{
             System.out.print(" "+i+" ");
