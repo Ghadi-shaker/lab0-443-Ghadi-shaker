@@ -65,31 +65,50 @@ public static void
 phoneKeypad(string text){
     String result="";
 
-for(char ch:
+for(char ch:)
 text.toUppercase().toCharArray()){
 
 Switch(ch){
-case'A':case'B':case'C':
+case'A':
+case'B':
+case'C':
 result+="2";
 break;
-case'D':case'E':case'F':
+case'D':
+case'E':
+case'F':
+
 result+="3";
 break;
-case'G':case'H':case'I'
+case'G':
+case'H':
+case'I'
 result+=:"4";
 break;
-case'J':case'K':case'L':
+case'J':
+case'K':
+case'L':
 result+="5";
 break; 
-case'M':case'N':case'O':
+case'M':
+case'N':
+case'O':
 result+="6";
 break;
-case'P':case'Q':case'R':case'S':
+case'P':
+case'Q':
+case'R':
+case'S':
 result+="7";
-bcase'T':case'U':case'V':
+bcase'T':
+case'U':
+case'V':
 result+="8";
 break;
-case'W':case'X':case'Y':case'Z':
+case'W':
+case'X':
+case'Y':
+case'Z':
 result+="9";
 break;
 }
